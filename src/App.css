@@ -1,0 +1,41 @@
+.flow-builder {
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  background: #f7f7f7;
+  width: 200px;
+}
+
+.dndnode {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: grab;
+}
+
+.settings-panel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 20px;
+}
